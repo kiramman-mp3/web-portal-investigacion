@@ -9,7 +9,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.0-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Swagger](https://img.shields.io/badge/OpenAPI%203.0-Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](https://swagger.io/)
 [![Vercel](https://img.shields.io/badge/Frontend-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
-[![Railway](https://img.shields.io/badge/Backend-Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app/)
+[![Docker](https://img.shields.io/badge/Backend-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://investigacion.madebyjohan.xyz)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ---
@@ -23,7 +23,7 @@ El **Portal REASONS** es una solución web completa que permite al grupo de inve
 | 🎯 **Propósito** | Vitrina institucional y panel CMS autoadministrable para grupo de investigación |
 | 👥 **Público** | Docentes, investigadores y visitantes de la UTA |
 | 🏛️ **Institución** | Universidad Técnica de Ambato — Ecuador |
-| 🔗 **Demo en vivo** | [reasonsresearch.vercel.app](https://reasonsresearch.vercel.app) |
+| 🔗 **Demo en vivo** | [investigacion.madebyjohan.xyz](https://investigacion.madebyjohan.xyz) |
 
 ---
 
@@ -90,13 +90,13 @@ graph TD
     end
 
     subgraph "Vercel (CDN Global)"
-        FE["⚡ Angular 21 SPA<br/>reasonsresearch.vercel.app"]
+        FE["⚡ Angular 21 SPA<br/>investigacion.madebyjohan.xyz"]
     end
 
     subgraph "Railway (Backend)"
         API["🚀 Express REST API<br/>/api/*"]
         UPLOADS["📁 Archivos Estáticos<br/>/uploads/*"]
-        DB[("🗄️ MySQL 8<br/>railway DB")]
+        DB[("🗄️ MySQL 8<br/>Docker")]
     end
 
     User -->|"HTTPS"| FE
